@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: lightgreen;
+}
+
+.nav-link {
+    color: white;
+    font-size: 35px;
+}
+
+.fa-solid {
+    color: blue;
+}
+
+.fa-regular {
+    color: blue;
+}
+
+.fa-brands {
+    color: blue;
+}
+
+.bgimg {
+    background-image: url('https://img.freepik.com/free-photo/ice-cream-cone-with-flowers_23-2148860004.jpg?t=st=1712834616~exp=1712838216~hmac=eca64f8595be152319f0650c7bbdcf6b90afec0d5da2a733a9f01545dc47b976&w=1380');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    margin-top: 7.8%;
+
+}
+
+.head {
+    font-size: 70px;
+    color: green;
+    margin-top: 5%;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+
+.btns {
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+    width: 40%;
+    border-radius: 25px;
+    margin-top: 3%;
+    padding: 0.5%;
+    font-size: 30px;
+    margin-left: -21%;
+}
+
+.btns:hover {
+    background-color: green;
+    color: white;
+}
+
+.img1 {
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+.form-label {
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.btns1 {
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+    width: 40%;
+    border-radius: 25px;
+    margin-top: 3%;
+    padding: 0.5%;
+    font-size: 30px;
+
+}
+
+.btns1:hover {
+    background-color: green;
+
+}
+
+/* Contact */
+.bgcontact {
+    background-color: rgb(11, 173, 11);
+    width: 100vw;
+}
+
+.formy label {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.formy input[type="text"] {
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 25px;
+    padding: 0.8%;
+    width: 90%;
+    margin-bottom: 4%;
+
+}
+
+.formy textarea {
+    width: 90%;
+    border: none;
+    box-shadow: 2px 2px 2px lightgreen;
+    border-radius: 25px;
+
+}
+
+.formy {
+    display: flex;
+    flex-direction: column;
+}
+
+.cbutton {
+    background-color: white;
+    color: green;
+    font-size: 20px;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    margin-left: 4%;
+}
+
+.cbutton:hover {
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+    transform: scale(1.2);
+
+}
+
+.icons {
+    margin: 2%;
+    font-size: 25px;
+}
+
+.fa-square-instagram {
+    color: rgb(214, 21, 54);
+    font-size: 20px;
+}
+
+.fa-whatsapp {
+    color: green;
+    font: size 20px;
+}
+
+.fa-linkedin {
+    color: hsl(240, 84%, 53%);
+    font-size: 20px;
+}
+
+.img2 {
+    margin-left: 48%;
+    width: 10%;
+    margin-top: 2%;
+}
